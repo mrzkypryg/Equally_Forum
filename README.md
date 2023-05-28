@@ -13,6 +13,8 @@ Anggota Kelompok :
   * (F048XB193) – (Muhammad Rizky Prayoga).
 
 **Color Palette**
- <img src="=https://www.color-hex.com/palettes/17247.png" width="350" title="Equally Forum Website Color Palette">
+
+![Color Palette](https://www.color-hex.com/palettes/17247.png)
+
 
 
