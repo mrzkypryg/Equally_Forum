@@ -12,4 +12,7 @@ Anggota Kelompok :
   * (F048YB162) – (Sitti Safiatun Naja Koto).
   * (F048XB193) – (Muhammad Rizky Prayoga).
 
+**Color Palette**
+ <img src="=https://www.color-hex.com/palettes/17247.png" width="350" title="Equally Forum Website Color Palette">
+
 
