@@ -3,9 +3,11 @@ Equally Forum merupakan sebuah website bertema Kesetaraan Gender yang kami ranca
 tanggung jawab bersama, oleh karena itu, kami mencoba menghadirkan berbagai perspektif dan pengalaman untuk mempromosikan pemahaman yang lebih baik dan mendorong tindakan nyata. Website ini juga menawarkan fitur interaktif, seperti kotak komentar dan forum diskusi, yang memungkinkan pengunjung untuk berpartisipasi aktif dalam pembahasan isu-isu gender. Kami percaya bahwa website ini memiliki potensi untuk menjadi sumber informasi dan inspirasi yang penting dalam mempromosikan kesetaraan gender dimasyarakat. Kami berharap website ini dapat memberikan sumbangsih yang signifikan dalam menciptakan dunia yang lebih adil dan setara bagi semua individu, tanpa memandang jenis kelamin atau identitas gender mereka.
 
 **Tema Website**
+
 Inklusifitas untuk Semua - Kesetaraan Gender
 
 **Capstone Team C23-M4033**
+
 Anggota Kelompok : 
   * (F144XB490) – (Kamaludin Gustipartsani).
   * (F144XB430) – (Vega Putra Dwi Agni).
