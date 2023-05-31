@@ -115,7 +115,7 @@
                         <label for="">Email Address</label><span class="rit-coln">:</span>
                       </div>
                       <div class="col-sm-8">
-                        <input id="loemail" type="text" placeholder="Enter Email Address" class="form-control form-control-sm">
+                        <input id="loemail" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
                         <div class="smart-valid" id="loemail-err"></div>
                       </div>
                   </div>
@@ -183,7 +183,7 @@
                             <label for="">Email Address</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input v-on:blur="unic_email()" id="suemail" type="text" name="email_address" placeholder="Enter Email Address" class="form-control form-control-sm">
+                            <input v-on:blur="unic_email()" id="suemail" type="email" name="email_address" placeholder="Enter Email Address" class="form-control form-control-sm">
                             <div class="smart-valid" id="suemail-err"></div>
                         </div>
                       </div>
