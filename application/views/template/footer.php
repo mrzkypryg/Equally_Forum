@@ -115,7 +115,7 @@
                         <label for="">Email Address</label><span class="rit-coln">:</span>
                       </div>
                       <div class="col-sm-8">
-                        <input id="loemail" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
+                        <input v-on:keyup.enter="userLogin" id="loemail" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
                         <div class="smart-valid" id="loemail-err"></div>
                       </div>
                   </div>
@@ -124,7 +124,7 @@
                         <label for="">Password</label><span class="rit-coln">:</span>
                       </div>
                       <div class="col-sm-8">
-                        <input id="lopswd" type="password" placeholder="Enter Password" class="form-control form-control-sm">
+                        <input v-on:keyup.enter="userLogin" id="lopswd" type="password" placeholder="Enter Password" class="form-control form-control-sm">
                         <div class="smart-valid" id="lopswd-err"></div>
                       </div>
                   </div>
