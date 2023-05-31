@@ -11,7 +11,7 @@
                     <label for="">Email Address</label><span class="rit-coln">:</span>
                 </div>
                 <div class="col-sm-8">
-                    <input id="loemailnew" type="text" placeholder="Enter Email Address" class="form-control form-control-sm">
+                    <input id="loemailnew" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
                     <div class="smart-valid" id="loemailnew-err"></div>
                 </div>
                 </div>
