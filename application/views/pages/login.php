@@ -11,7 +11,7 @@
                     <label for="">Email Address</label><span class="rit-coln">:</span>
                 </div>
                 <div class="col-sm-8">
-                    <input id="loemailnew" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
+                    <input v-on:keyup.enter="userLogin" id="loemailnew" type="email" placeholder="Enter Email Address" class="form-control form-control-sm">
                     <div class="smart-valid" id="loemailnew-err"></div>
                 </div>
                 </div>
@@ -20,7 +20,7 @@
                     <label for="">Password</label><span class="rit-coln">:</span>
                 </div>
                 <div class="col-sm-8">
-                    <input id="lopswdnew" type="password" placeholder="Enter Password" class="form-control form-control-sm">
+                    <input v-on:keyup.enter="userLogin" id="lopswdnew" type="password" placeholder="Enter Password" class="form-control form-control-sm">
                     <div class="smart-valid" id="lopswdnew-err"></div>
                 </div>
                 </div>
