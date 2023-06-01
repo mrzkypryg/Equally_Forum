@@ -19,16 +19,6 @@ class Model_user extends CI_Model{
 		$this->db->update('users', array('url'=>$url));
 	}
 
-	public function remove_user($id){
-		$this->db->where('id', $id);
-		$this->db->update('users', array('active'=>'NO'));
-	}
-
-	public function restore_user($id){
-		$this->db->where('id', $id);
-		$this->db->update('users', array('active'=>'YES'));
-	}
-
 	public function check_email($table,$where){
 		return $this->db->get_where($table,$where);
 	}
