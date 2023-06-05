@@ -87,18 +87,18 @@
                   </div>
                   <div class="row no-margin form-row">
                       <div class="col-sm-4">
-                        <label for="">Email Address</label><span class="rit-coln">:</span>
+                        <label>Email Address</label><span class="rit-coln">:</span>
                       </div>
                       <div class="col-sm-8">
-                        <input v-on:keyup.enter="login_check" id="email_login" type="email" placeholder="Enter Email Address" class="form-control form-control-sm" required>
+                        <input v-on:keyup.enter="login_check" id="email_login" type="email" placeholder="Your email address..." class="form-control form-control-sm" required>
                       </div>
                   </div>
                   <div class="row no-margin form-row">
                       <div class="col-sm-4">
-                        <label for="">Password</label><span class="rit-coln">:</span>
+                        <label>Password</label><span class="rit-coln">:</span>
                       </div>
                       <div class="col-sm-8">
-                        <input v-on:keyup.enter="login_check" id="email_pass" type="password" placeholder="Enter Password" class="form-control form-control-sm" required>
+                        <input v-on:keyup.enter="login_check" id="email_pass" type="password" placeholder="Your password..." class="form-control form-control-sm" required>
                       </div>
                   </div>
                   <div class="row no-margin form-row">
@@ -126,7 +126,7 @@
           <div class="modal-dialog modal-login_signup signup-modal" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Equally Sign Up</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>
@@ -135,42 +135,42 @@
                   <form method="post"  action="<?php echo base_url() ?>account/sign_up">
                       <div class="row no-margin form-row">
                         <div class="col-sm-4">
-                            <label for="">Full Name</label><span class="rit-coln">:</span>
+                            <label >Full Name</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input id="suname" type="text" name="name" placeholder="Enter Full Name" class="form-control form-control-sm" required>
+                            <input id="suname" type="text" name="name" placeholder="Your full name..." class="form-control form-control-sm" required>
                         </div>
                       </div>
                       <div class="row no-margin form-row">
                         <div class="col-sm-4">
-                            <label for="">Username</label><span class="rit-coln">:</span>
+                            <label>Username</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input type="text" name="nickname" placeholder="Enter Username" class="form-control form-control-sm" required>
+                            <input type="text" name="nickname" placeholder="Your username..." class="form-control form-control-sm" required>
                         </div>
                       </div>
                       <div class="row no-margin form-row">
                         <div class="col-sm-4">
-                            <label for="">Email Address</label><span class="rit-coln">:</span>
+                            <label>Email Address</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input id ="email_signup" type="email" name="email_address" placeholder="Enter Email Address" class="form-control form-control-sm" required>
+                            <input id ="email_signup" type="email" name="email_address" placeholder="Your email address..." class="form-control form-control-sm" required>
                         </div>
                       </div>
                       <div class="row no-margin form-row">
                         <div class="col-sm-4">
-                            <label for="">Password</label><span class="rit-coln">:</span>
+                            <label>Password</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input id="pswd" name="password" type="password" placeholder="Enter Password" class="form-control form-control-sm" required>
+                            <input id="pswd" name="password" type="password" placeholder="Your password..." class="form-control form-control-sm" required>
                         </div>
                       </div>
                       <div class="row no-margin form-row">
                         <div class="col-sm-4">
-                            <label for="">Confirmation</label><span class="rit-coln">:</span>
+                            <label>Confirmation</label><span class="rit-coln">:</span>
                         </div>
                         <div class="col-sm-8">
-                            <input id="confirm_pswd" type="password"  placeholder="Password Confirmation" class="form-control form-control-sm" required>
+                            <input id="confirm_pswd" type="password"  placeholder="Rewrite your password..." class="form-control form-control-sm" required>
                         </div>
                       </div>
                       <div class="row no-margin form-row">
