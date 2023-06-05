@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 
-
 * {
   margin: 0px;
   padding: 0px;
@@ -256,96 +255,28 @@ header {
     }
   }
   @media screen and (max-width: 991px) {
-    header .search-box {
-      padding-right: 0px; }
     header i {
       left: -9% !important; }
     header img {
       margin-top: 5px; } }
   @media screen and (max-width: 767px) {
-    header #search {
-      display: none;
-      padding-right: 15px;
-      margin-bottom: 15px; }
-    header .search-box i {
-      top: -28px !important;
-      left: 96% !important; }
     header img {
       margin-top: 8px; } }
-  @media screen and (max-width: 767px) {
-    header .sarch-box i {
-      left: 94% !important; } }
   @media screen and (max-width: 429px) {
     header img {
       width: 130px;
-      margin-top: 10px; }
-    header .sarch-box i {
-      left: 92% !important; } }
+      margin-top: 10px; } }
   @media screen and (max-width: 371px) {
     header img {
       margin-top: 3px; }
     header .d-navmenu {
       padding: 0px; } }
-  header .sarch-box input {
-    min-width: 300px;
-    width: 80%;
-    height: 35px;
-    margin-top: 6px;
-    border: 1px solid #dadaf1;
-    font-size: 15px;
-    border-radius: 30px;
-    padding: .375rem 2.0rem .375rem .75rem;
-    background: #f7f7ff; }
-    @media screen and (max-width: 991px) {
-      header .sarch-box input {
-        width: 250px;
-        min-width: 250px; } }
-    @media screen and (max-width: 767px) {
-      header .sarch-box input {
-        width: 100%;
-        min-width: 100%; } }
-  header .sarch-box i {
-    position: relative;
-    top: 15px;
-    color: #000;
-    font-size: 14px; 
-    left: -7%}
-    @media screen and (max-width: 700px) {
-      header .sarch-box i {
-        display: none;
-         } }
-  header .login-btns .btn {
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 10px;
-    border-radius: 40px; }
-  header .search-box {
-    position: absolute;
-    display: none;
-    width: 72%;
-    background-color: #FFF;
-    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
-    margin-top: 41px;
-    margin-left: -3%; }
-    header .search-box ul li {
+    header .login-btns .btn {
       padding: 10px;
-      border-bottom: 1px solid #CCC; }
-      header .search-box ul li h6 {
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 0px; }
-      header .search-box ul li p {
-        font-size: 13px;
-        height: 18px;
-        overflow: hidden; }
-      header .search-box ul li:hover {
-        background-color: #6742c3;
-        color: #FFF; }
-        header .search-box ul li:hover h6 {
-          color: #FFF; }
-        header .search-box ul li:hover p {
-          color: #FFF; }
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 10px;
+      border-radius: 40px; }
       header .forum-dd {
         text-align: right;
         cursor: pointer; }
@@ -953,4 +884,9 @@ footer {
     max-width: 25%;
     padding: 0 0.7em; } }
 
-
+    @media screen and (max-width: 760px) {
+      #list_menu_eq {
+        margin-left: -2rem !important;
+        margin-top: 0.5rem; 
+      } 
+    }
