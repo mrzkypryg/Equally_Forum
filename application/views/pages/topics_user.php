@@ -22,13 +22,6 @@
 					</div>
 					<div class="post-info-detail">
 						<ul>
-							<?php if(!empty($edit)): ?>
-							<li>
-								<a href="<?php echo base_url() ?>topic/edit/<?php echo $single['id'] ?>">
-									<i class="fas fa-edit"></i><small>Edit</small>
-								</a>
-							</li>
-							<?php endif; ?>
 							<li>
 								<i class="fas fa-eye"></i> 
 								<small><?php echo $single['count'] ?></small>
@@ -37,6 +30,13 @@
 								<i class="fas fa-clock"></i> 
 								<small><?php echo $single['date_post'] ?> </small>
 							</li>
+							<?php if(!empty($edit)): ?>
+							<li style="border-radius:40px;background-color:	yellow; margin-top:5px">
+								<a href="<?php echo base_url() ?>topic/edit/<?php echo $single['id'] ?>">
+									<i class="fas fa-pencil-alt"></i><b>Edit topic</b>
+								</a>
+							</li>
+							<?php endif; ?>
 						</ul>
 					</div>
 				</div>
