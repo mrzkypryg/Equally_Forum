@@ -25,42 +25,34 @@
 					<a href="<?php echo base_url() ?>">
 						<img src="<?php echo base_url() ?>assets/images/logo.png?<?php echo date("Ymd"); ?>" style="max-width:160px" alt="Equality Forum">
 					</a>
-					<a data-toggle="collapse" data-target="#search" href="#search">
-						<i class="fas d-md-none fa-search"></i>
-					</a>
 					<a data-toggle="collapse" data-target="#login" href="#login">
 						<i class="fas d-md-none fa-ellipsis-v"></i>
 					</a>
 				</div>
-				<div id="search" class="col-lg-5 col-md-4  sarch-box d-md-flex justify-content-center">
-					<input v-on:keyup="topicSearch()" id="keyTopic" onblur="hide_search()" type="text" class="form-control" placeholder="Search discussion topics...">
-					<i class="fas fa-search"></i>
-					<div class="search-box">
-						<ul>
-							<li v-for="eq in result">
-								<a v-bind:href="r.url">
-									<h6>{{eq.title}}</h6>
-									<p>{{eq.description}}</p>
-								</a>
-							</li>
-						</ul>
-					</div>
+				<div class="col-lg-5 col-md-3  sarch-box d-md-flex justify-content-center">
 				</div>
 				<div id="login" class="col-lg-4 col-md-5 d-none d-md-block center login-btns">
 					<?php if (empty($this->single)) { ?>
 						<button onclick="show_login()" type="button" class="btn btn-sm btn-info" id="btnLoginUser"><i class="fas fa-sign-in-alt"></i> Login</button>
 					<?php } else { ?>
-								<ul>
-									<li>
-										<button class="btn btn-sm btn-info" type="button" id="btnUsername"> Hello!  <i class="fas fa-user"></i> <?php echo $this->single->name; ?></button>
-										<a href="<?php echo base_url() ?>account/log_out">
-											<button class="btn btn-sm btn-info" type="button" id="btnLogout"><i class="fas fa-exit"></i> Logout</button>
-										</a>
-									</li>
-									</ul>
-								</div>
-					<?php	} ?>
+							<ul>
+								<li style="margin-left:-8rem" id="list_menu_eq">
+								<a href="<?php echo base_url() ?>"> 
+									<button style="background-color:#c44dcc; border: 2px solid #c44dcc" class="btn btn-sm btn-info" type="button">Home</button>
+								</a>
+								<a href="<?php echo base_url() ?>#mainForum">
+									<button style="background-color:#e37777; border: 2px solid #e37777" class="btn btn-sm btn-info" type="button">Forum</button>
+								</a>
+								<button class="btn btn-sm btn-info" type="button" id="btnUsername"> <i class="fas fa-user"></i> <?php echo $this->single->name; ?></button>
+								<a href="<?php echo base_url() ?>account/log_out">
+									<button class="btn btn-sm btn-info" type="button" id="btnLogout"><i class="fas fa-exit"></i> Logout</button>
+								</a>
+								</li>
+							</ul>
+				</div>
+				<?php	} ?>
 				</div>
 			</div>
 		</div>
-	</header> <!------- Header Ends Here ------->
+	</header> 
+	<!--Header End-->
