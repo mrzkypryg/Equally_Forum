@@ -1,6 +1,6 @@
 <?php if(!empty($this->single)): ?>
 <a href="<?php echo base_url() ?>pages/new_topic">
-<button class="btn btn-info new-forum"><i class="far fa-edit"></i> Add New Post</button>	
+<button class="btn btn-info new-forum"></i> [+] Add New Discussion Topic  <i class="fas fa-comment"></button>	
 </a>
 <?php endif; ?>
 
