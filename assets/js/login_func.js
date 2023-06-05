@@ -1,4 +1,4 @@
-//Login
+//Login 
 var login = new Vue({
     el:"#equally_login",
     data: {},
@@ -18,28 +18,3 @@ var login = new Vue({
         },
     }
 })
-
-//Search Topic Discussion Feature
-var search = new Vue({
-    el:'#search',
-    data:{
-        result:[],
-    },
-    methods:{
-        topicSearch: function(e){
-          var keyword = $("#keyTopic").val();
-          if(keyword.length > 2){
-              axios.post(url+'forum/search_topic',{'keyTopic':keyword}).then(function(e){
-                  if(e != ''){
-                      $('.search-box').show();  
-                  }
-                  search.result = e.data;  
-              })    
-          }
-        }
-    }
-})
-
-
-
-
