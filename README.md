@@ -21,10 +21,10 @@ Anggota Kelompok :
 **Cara Menjalankan Website di Localhost (User Installation Guide)**
 
   1. Pastikan XAMPP sudah terinstall di PC kalian, jika belum maka dapat mendownloadnya pada link berikut https://www.apachefriends.org/download.html.
-		2. Download proyek repository Git ini dan letakkan di dalam folder htdocs di dalam folder aplikasi XAMPP yang telah terinstall sebelumnya dengan nama folder 'equally'.
-		3. Buka http://localhost/phpmyadmin/, lalu buat database baru bernama equally_forum lalu import database sql yang telah kami sediakan di dalam folder db_sql.
+  2. Download proyek repository Git ini dan letakkan di dalam folder htdocs di dalam folder aplikasi XAMPP yang telah terinstall sebelumnya dengan nama folder 'equally'.
+  3. Buka http://localhost/phpmyadmin/, lalu buat database baru bernama equally_forum dan import database sql yang telah kami sediakan di dalam folder db_sql.
   4. Jalankan url http://localhost/equally/ pada browswer.
-		5. Jika ingin login, maka list email dapat dilihat pada tabel equally_users dalam database mysql Phpmyadmin, untuk passwordnya dapat diisi dengan user (di dalam database 
+  5. Jika ingin login, maka list email dapat dilihat pada tabel equally_users dalam database mysql Phpmyadmin, untuk passwordnya dapat diisi dengan user (di dalam database 
      sudah di enskripsi). Email : equally@dicoding.org dan Password : user  
 
 
